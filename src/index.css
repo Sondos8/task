@@ -1,13 +1,781 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+:root {
+  --font-family:'Encode Sans Expanded', sans-serif;
+  --color: #fff
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-family);
+}
+.left {
+  height: 100vh;
+  background-color: #C98A40;
+}
+.right {
+  background-image: url(assets/images/work-background.jpg);
+  background-size: contain;
+  background-attachment: scroll;
+}
+.fex {
+  overflow: hidden;
+}
+/* //////////////////// home ///////////////////////////// */
+
+.style {
+  font-weight: bolder;
+  color: var(--color);
+  position: relative;
+  top: 26px;
+  left: 280px;
+}
+.layout {
+  width: 707px;
+  height: 72px;
+  color: var(--color);
+  position: relative;
+  top: 200px;
+  left: 183px;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 89.03px;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.style2 {
+  width: 552px;
+  height: 78px;
+  color: var(--color);
+  position: relative;
+  top: 220px;
+  left: 185px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+}
+.style3 {
+  width: 194px;
+  height: 60px;
+  color: var(--color);
+  position: relative;
+  top: 240px;
+  left: 183px;
+  border-radius: 30px;
+  background-color: #FDBA10;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: center;
+}
+.style4 {
+  height: 414px;
+  position: relative;
+  top: 200px;
+  width: 666px;
+  right: 200px;
+}
+.icons {
+  background-image: url(assets/images/work-background.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  width: 275px;
+  height: 170px;
+  opacity: 0.4px;  
+  display: flex;
+  align-items: end;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+.parent {
+  position: relative;
+  top: 278px;
+}
+.style6 {
+  position: relative;
+  height: 26px;
+  top: 140px;
+  left: 12px;
+  color: var(--color);
+}
+/* //////////////////// work ///////////////////////////// */
+
+.title{
+  width: 630px;
+  height: 276px;
+  color: var(--color);
+  position: relative;
+  top: 30px;
+  left: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+  line-height: 138.24px;
+  text-align: right;
+}
+.paragraph {
+  width: 277px;
+  height: 156px;
+  color: #C98A40;
+  position: relative;
+  top: 140px;
+  left: 200px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+}
+.food {
+  display: flex;
+  position: relative;
+  top: 200px;
+  left: 130px;
+}
+.button{
+  width: 195px;
+  height: 60px;
+  background-color: #FDBA10;
+  color: var(--color);
+  position: relative;
+  top: 220px;
+  left: 640px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* //////////////////// about ///////////////////////////// */
+
+.about-title {
+  width: 610px;
+  height: 260px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--color);
+  position: relative;
+  top: 50px;
+  left: 200px;
+  font-size: 144px;
+  font-weight: 600;
+  line-height: 138.24px;
+  text-align: left;
+}
+.paragraph2 {
+  width: 550px;
+  height: 312px;
+  color: var(--color);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  position: relative;
+  top: 110px;
+  left: 200px;
+}
+.button2 {
+  width: 195px;
+  height: 50px;
+  background-color: #FDBA10;
+  color: var(--color);
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 24px;
+}
+.img-about {
+  position: relative;
+  top: 70px;
+  right: 150px;
+}
+
+/* //////////////////// recipes ///////////////////////////// */
+.container {
+  width: 75%;
+  margin: auto;
+}
+.harder {
+  color: #C98A40;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 136px;
+  font-weight: 800;
+  text-align: center;
+}
+.parent-2 {
+  border: 1px solid #FFD8AB;
+  border-radius: 20px;
+  text-align: left;
+  position: relative;
+  top: 0px;
+}
+.img img {
+  border-radius: 20px;
+}
+.font {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #C98A40;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 24px;
+}
+
+/* //////////////////// testy ///////////////////////////// */
+
+.testy {
+  background-image: url(assets/images/Testimonials-background.png);
+  background-color: #C98A40;
+}
+.harder-2 {
+  color: var(--color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 136px;
+  font-weight: 800;
+  text-align: center;
+  
+}
+.all {
+  background-color: var(--color);
+  border-radius: 30px;
+}
+.col {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: left;
+  color: #C98A40;
+}
+
+/* //////////////////// contact ///////////////////////////// */
+
+.container-cont {
+  width: 50%;
+  margin: auto;
+}
+.bg {
+  background: #FFD39F;
+  border-radius: 30px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 16.84px;
+}
+.bg-2 {
+  border: 3px solid #C98A40;
+  border-radius: 61px;
+  width: 50%;
+  color: black;
+  font-size: 14px;
+  font-weight: 900;
+  background-color: transparent;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer {
+  background-color: #584125;
+  width: 100%;
+  height: 80px;
+}
+/* ///////////////////////////////////////////////////////////// */
+
+@media (max-width:576px) {
+
+    /* ////////// home /////////////// */
+
+  .style {
+    position: relative;
+    top: 9px;
+    left: 100px;
+  }
+  .layout {
+    height: 25px;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    font-size: 40px;
+  }
+  .style2 {
+    width: 380px;
+    height: 30px;
+    position: relative;
+    top: 80px;
+    left: 85px;
+  }
+  .style3 {
+    height: 50px;
+    position: relative;
+    top: 170px;
+    left: 80px;
+    border-radius: 30px;
+  }
+  .style4 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+  .parent {
+    position: relative;
+    top: 237px;
+  }
+
+    /* ////////// work /////////////// */
+
+    .paragraph {
+      width: 330px;
+      height: 136px;
+      position: relative;
+      top: 100px;
+      left: 130px;
+      font-size: 18px;
+      line-height: 24px;
+    }
+    .title{
+      width: 420px;
+      height: 150px;
+      position: relative;
+      top: 40px;
+      left: 40px;
+      font-size: 60px;
+      line-height: 80.24px;
+    }
+    .food {
+      width: 40%;
+      display: flex;
+      position: relative;
+      top: 450px;
+      left: 10px;
+    }
+    .button{
+      position: relative;
+      top: 500px;
+      left: 160px;
+      border-radius: 30px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+  /* ////////// about /////////////// */
+
+  .about-title {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 55.24px;
+  }
+  .paragraph2 {
+    width: 355px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    top: 110px;
+    left: 80px;
+  }
+  .img-about {
+    position: relative;
+    top: 0px;
+    right: 0px;
+  }
+
+    /* ////////// recipes /////////////// */
+
+    .harder {
+      font-size: 70px;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .parent-2 {
+      position: relative;
+      top: 0px;
+    }
+
+    /* ////////// testy /////////////// */
+
+    .harder-2 {
+      font-size: 50px;
+      font-weight: 800;
+      text-align: center;
+    }
+}
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+@media all and (min-width: 577px) and (max-width: 767px) {
+
+    /* ////////// home /////////////// */
+
+  .style {
+    position: relative;
+    top: 15px;
+    left: 200px;
+  }
+  .layout {
+    height: 25px;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    font-size: 40px;
+  }
+  .style2 {
+    width: 380px;
+    height: 30px;
+    position: relative;
+    top: 90px;
+    left: 150px;
+    font-size: 18px;
+  }
+  .style3 {
+    height: 50px;
+    position: relative;
+    top: 180px;
+    left: 150px;
+    border-radius: 30px;
+  }
+  .parent {
+    position: relative;
+    top: 237px;
+  }
+  .style4 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+  }
+
+  /* ////////// work /////////////// */
+
+  .paragraph {
+    width: 330px;
+    height: 136px;
+    position: relative;
+    top: 100px;
+    left: 130px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .title{
+    width: 420px;
+    height: 150px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    font-size: 70px;
+    line-height: 80.24px;
+  }
+  .food {
+    width: 40%;
+    display: flex;
+    position: relative;
+    top: 450px;
+    left: 12px;
+  }
+  .button{
+    position: relative;
+    top: 500px;
+    left: 190px;
+    border-radius: 30px;
+    line-height: 20px;
+  }
+
+  /* ////////// about /////////////// */
+
+  .about-title {
+    width: 120px;
+    height: 80px;
+    position: relative;
+    top: 40px;
+    left: 120px;
+    font-size: 80px;
+    line-height: 80.24px;
+  }
+  .paragraph2 {
+    width: 450px;
+    height: 80px;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    top: 140px;
+    left: 120px;
+  }
+  .img-about {
+    position: relative;
+    top: 0px;
+    right: 0px;
+  }
+
+    /* ////////// recipes /////////////// */
+
+    .harder {
+      font-size: 70px;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .parent-2 {
+      position: relative;
+      top: 0px;
+    }
+
+    /* ////////// testy /////////////// */
+
+    .harder-2 {
+      font-size: 60px;
+      font-weight: 800;
+      text-align: center;
+    }
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+
+    /* ////////// home /////////////// */
+
+  .style {
+    position: relative;
+    top: 15px;
+    left: 120px;
+  }    
+  .layout {
+    height: 25px;
+    position: relative;
+    top: 60px;
+    left: 90px;
+    font-size: 40px;
+  }
+  .style2 {
+    width: 380px;
+    height: 30px;
+    position: relative;
+    top: 110px;
+    left: 95px;
+    font-size: 18px;
+  }
+  .style3 {
+    height: 50px;
+    position: relative;
+    top: 200px;
+    left: 90px;
+    border-radius: 30px;
+  }
+  .style4 {
+    height: 350px;
+    position: relative;
+    top: 90px;
+    right: 100px;
+  }
+  .parent {
+    position: relative;
+    top: 237px;
+  }
+
+  /* ////////// work /////////////// */
+
+  .paragraph {
+    width: 257px;
+    height: 136px;
+    position: relative;
+    top: 100px;
+    left: 10px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .title{
+    width: 480px;
+    height: 200px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    font-size: 60px;
+    line-height: 100.24px;
+  }
+  .food {
+    display: flex;
+    position: relative;
+    top: 180px;
+    left: 100px;
+  }
+  .button{
+    width: 175px;
+    height: 40px;
+    position: relative;
+    top: 200px;
+    left: 300px;
+    border-radius: 30px;
+    font-weight: 800;
+    line-height: 24px;
+  }
+
+  /* ////////// about /////////////// */
+
+  .about-title {
+    width: 160px;
+    height: 100px;
+    position: relative;
+    top: 40px;
+    left: 60px;
+    font-size: 80px;
+    line-height: 80.24px;
+  }
+  .paragraph2 {
+    width: 450px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    top: 130px;
+    left: 60px;
+  }
+  .img-about {
+    position: relative;
+    top: 100px;
+    right: 30px;
+  }
+
+    /* ////////// recipes /////////////// */
+
+    .harder {
+      font-size: 70px;
+      font-weight: 800;
+      text-align: center;
+    }
+    .parent-2 {
+      position: relative;
+      top: 0px;
+      font-size: 12px;
+      line-height: 12px;
+    }
+
+    /* ////////// testy /////////////// */
+
+    .harder-2 {
+      font-size: 70px;
+      font-weight: 800;
+      text-align: center;
+    }
+
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+
+@media all and (min-width: 993px) and (max-width: 1199px) {
+
+    /* ////////// home /////////////// */
+
+  .layout {
+    height: 25px;
+    position: relative;
+    top: 80px;
+    left: 190px;
+    font-size: 40px;
+  }
+  .style2 {
+    width: 380px;
+    height: 30px;
+    position: relative;
+    top: 120px;
+    left: 200px;
+    font-size: 18px;
+  }
+  .style3 {
+    height: 50px;
+    position: relative;
+    top: 220px;
+    left: 190px;
+  }
+  .style4 {
+    height: 350px;
+    position: relative;
+    top: 110px;
+    right: 150px;
+  }
+  .parent {
+    position: relative;
+    top: 237px;
+  }
+
+  /* ////////// work /////////////// */
+
+  .paragraph {
+    width: 257px;
+    height: 136px;
+    position: relative;
+    top: 100px;
+    left: 60px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .title{
+    width: 530px;
+    height: 236px;
+    position: relative;
+    top: 30px;
+    left: 80px;
+    font-size: 80px;
+    line-height: 118.24px;
+  }
+  .food {
+    display: flex;
+    position: relative;
+    top: 180px;
+    left: 100px;
+  }
+  .button{
+    position: relative;
+    top: 200px;
+    left: 400px;
+    border-radius: 30px;
+    font-weight: 800;
+    line-height: 24px;
+  }
+
+  /* ////////// about /////////////// */
+
+  .about-title {
+    width: 160px;
+    height: 100px;
+    position: relative;
+    top: 40px;
+    left: 190px;
+    font-size: 80px;
+    line-height: 80.24px;
+  }
+  .paragraph2 {
+    width: 450px;
+    height: 80px;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    top: 130px;
+    left: 190px;
+  }
+  .img-about {
+    position: relative;
+    top: 100px;
+    right: 60px;
+  }
+
+    /* ////////// recipes /////////////// */
+
+    .parent-2 {
+      position: relative;
+      top: 0px;
+    }
+
+    /* ////////// testy /////////////// */
+
+    .harder-2 {
+      font-size: 90px;
+      font-weight: 800;
+      text-align: center;
+    }
+
 }
